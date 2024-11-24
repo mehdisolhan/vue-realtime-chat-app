@@ -6,7 +6,7 @@ const socket = ref(null)
 const isConnected = ref(false)
 const error = ref(null)
 const messages = ref([])
-const URL = 'https://vue-realtime-chat-app.onrender.com'
+const URL = import.meta.env.VITE_API_URL
 
 export default function useSocket() {
   const store = useGlobalStore()
