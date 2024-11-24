@@ -18,7 +18,7 @@ const corsOptions = {
   methods: ["GET", "POST"],
   credentials: true,
 };
-const MAX_USERS = 1;
+const MAX_USERS = 2;
 
 const io = new Server(server, corsOptions);
 app.use(express.static("public"));
