@@ -1,12 +1,13 @@
 const express = require("express");
 const http = require("http");
 const cors = require("cors");
+require("dotenv").config();
 const { Server } = require("socket.io");
 
 const app = express();
 const server = http.createServer(app);
 
-const PORT = 6001;
+const PORT = process.env.PORT;
 const corsOptions = {
   cors: true,
   origins: ["http://localhost:3000", "http://localhost:5000"],
