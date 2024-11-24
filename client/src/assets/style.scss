@@ -1,0 +1,29 @@
+$font-url: '@/assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf';
+
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url($font-url) format('truetype');
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+  font-optical-sizing: auto;
+}
+
+html {
+  font-size: 14px;
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--p-primary-800);
+  }
+
+  *::-webkit-scrollbar-track {
+    background: var(--p-gray-400);
+  }
+  *::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+  }
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
