@@ -10,7 +10,13 @@ const server = http.createServer(app);
 const PORT = process.env.PORT;
 const corsOptions = {
   cors: true,
-  origins: ["http://localhost:3000", "http://localhost:5000"],
+  origins: [
+    "https://vue-realtime-chat-app.vercel.app",
+    "http://localhost:3000",
+    "http://localhost:5000",
+  ],
+  methods: ["GET", "POST"],
+  credentials: true,
 };
 const MAX_USERS = 1;
 
