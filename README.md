@@ -32,12 +32,13 @@ This is the client-side application for the Simple Chat Application. It provides
 ````bash
 git clone https://github.com/mehdisolhan/vue-realtime-chat-app.git
 cd vue-realtime-chat-app/client
+````
 
 ## Project Setup
 
 ```sh
 pnpm install
-````
+```
 
 ### Compile and Hot-Reload for Development
 
@@ -61,7 +62,7 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ### Lint with [ESLint](https://eslint.org/)
 
-````markdown
+
 # Server - Simple Chat Application
 
 This is the server-side application for the Simple Chat Application. It manages real-time communication using **Express.js** and **Socket.IO**, with a limit of two users per chat room.
@@ -91,7 +92,6 @@ This is the server-side application for the Simple Chat Application. It manages 
 git clone https://github.com/mehdisolhan/vue-realtime-chat-app.git
 cd vue-realtime-chat-app/server
 ```
-````
 
 ## Project Setup
 
